@@ -1,0 +1,99 @@
+
+.container-custom {
+  overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+.container::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255); /* color of the tracking area */
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: rgba(54, 54, 54, 0.466); /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 3px solid rgba(78, 78, 78, 0.452); /* creates padding around scroll thumb */
+}
+/* Click on the question */
+.inprogress-card {
+  background-color: #f7caca;
+  border-radius: 18px;
+  border: solid;
+  border-color: #ff4340
+  ;
+
+  height: 300px;
+  width: 250px;
+  text-align: center;
+ 
+}
+.darkCard {
+  opacity: 0.9;
+}
+.topicName {
+  color: #b40cc7;
+  font-size: 20px;
+  font-weight: 700;
+}
+.totalQuestion {
+  color: #a512ef;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.notstarted-card {
+  background-color:#ecc5fb;
+  border: solid;
+  border-color:#9b3dac;
+  border-radius: 18px;
+  height: 300px;
+  width: 250px;
+  text-align: center;
+ 
+  
+}
+
+.percentDone {
+  color: #00ff15;
+  padding-top: 20px;
+}
+
+
+
+
+@media screen and (max-height: 650px) {
+  .container-custom {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .container-custom {
+    height: 93vh;
+  }
+}
+.start-btn{
+  margin-top: 60px;
+  color: rgb(255, 255, 255);
+  background-color:#077fff;
+  border-radius: 15px;
+  
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.submit{
+  width:10px;
+}
+.card:hover {
+  transform: scale(1.1);
+  
+}

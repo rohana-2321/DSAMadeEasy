@@ -1,0 +1,169 @@
+
+.app-heading {
+	font-weight: 700;
+	color: #524f4f;
+	font-size: 50px;
+
+    
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #c001ff,
+    0 0 28px #dc07fd,0 0 25px #b10aff,
+    0 0 30px #b411ff,0 0 35px #7c11ff;
+}
+.app-heading2,.hh{
+    color: #9b3dac;
+}
+.App {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	transition: all 0.3s ease-in-out;
+}
+.dark {
+	background-color: #151515;
+	color: white;
+}
+
+
+
+.emojiFix {
+	font-weight: 100 !important;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+
+/***    Login Page     ***/
+/* h2 {
+    font-weight: 300
+}
+
+form {
+    display: inline-block;
+    backdrop-filter: blur(17px) saturate(200%);
+    -webkit-backdrop-filter: blur(17px) saturate(200%);
+    background-color: rgba(190, 190, 190, 0.44);
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+.in{
+	
+		width: 15rem;
+		padding: .3rem;
+		border-radius: 5px;
+		outline: none;
+		border: none
+
+}
+
+input {
+   
+    padding: .2rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+} */
+
+/***    Register Page     ***/
+
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
